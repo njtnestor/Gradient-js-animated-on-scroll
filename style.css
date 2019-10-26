@@ -1,0 +1,23 @@
+.section5 {
+    position: relative;
+    overflow: hidden; 
+}
+.section5 .gradient-wrapper > .prototipes-wrapper {
+      display: flex;
+      justify-content: space-between; 
+}
+.section5 .gradient-wrapper > .prototipes-wrapper > .prototipe {
+        flex-basis: 27.3%;
+        z-index: 1; 
+}
+.section5 .gradient-wrapper > .prototipes-wrapper > .prototipe > img {
+    width: 100%; 
+}
+.section5 .gradient-wrapper .gradient {
+    position: absolute;
+    top: 11%;
+    left: 0;
+    height: 73%;
+    width: 200%;
+    background: linear-gradient(287deg, #ff0000, #1800ff, #ff9600);
+}  
